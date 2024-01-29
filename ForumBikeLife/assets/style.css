@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*******************************************/
+/*              FORUM                      */
+/*******************************************/
+
+/* Styles pour le conteneur des questions */
+.question-container {
+    margin: 20px;
+}
+
+/* Styles pour le formulaire de recherche */
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles pour le champ de recherche */
+.search-field {
+    height: 39px;
+    padding: 8px;
+    width: 700px;
+    border: 1px solid #ccc;
+}
+
+/* Styles pour le bouton de recherche */
+.search-submit {
+    padding: 10px 20px; /* Espacement interne du bouton */
+    font-size: 16px; /* Taille de police */
+    background-color: rgba(255, 170, 15, 0.95); /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointeur */
+    margin-left: 16%;
+    transition: background-color 0.3s;
+}
+
+/* Styles pour la carte de question */
+.question-card1 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Fond de la carte */
+}
+
+/* Styles pour l'en-tête de la carte de question */
+.question-header1 {
+    font-weight: bold;
+    background-color: #eaeaea; /* Fond de l'en-tête */
+    padding: 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Styles pour le corps de la carte de question */
+.question-body1 {
+    margin-top: 10px;
+}
+
+/* Styles pour le pied de la carte de question */
+.question-footer1 {
+    font-style: italic;
+    font-size: 0.8em;
+    background-color: #f5f5f5; /* Fond du pied */
+    padding: 8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/********************************************/
+
+/*******************************************/
+/*              Article                    */
+/*******************************************/
+
+/* Styles pour les détails de la question */
+.question-details {
+    margin-bottom: 30px; /* Espacement en bas de la section */
+    padding: 20px; /* Espacement interne */
+    border-radius: 8px; /* Coins arrondis */
+    background-color: #f9f9f9; /* Couleur de fond */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+
+}
+
+/* Styles pour la section de réponse */
+.answer-section {
+    margin-top: 30px; /* Espacement entre la question et la réponse */
+     /* Largeur maximale de la section */
+    width: 100%; /* Permet à la section de prendre toute la largeur disponible */
+    margin: 0 auto; /* Centrage horizontal */
+}
+
+/* Styles pour le formulaire de réponse */
+.answer-form {
+    background-color: #f9f9f9; /* Couleur de fond du formulaire */
+    padding: 20px; /* Espacement interne du formulaire */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    margin-bottom: 20px; /* Espacement en bas du formulaire */
+}
+
+/* Styles pour le label de réponse */
+.answer-label {
+    font-weight: bold;
+}
+
+/* Styles pour le champ de réponse */
+.answer-field {
+    width: calc(100% - 40px); /* Largeur du champ de réponse */
+    height: 150px; /* Hauteur du champ de réponse */
+    font-size: 16px; /* Taille de police */
+    margin-bottom: 10px; /* Espacement en bas du champ de réponse */
+}
+
+/* Styles pour le bouton de soumission de réponse */
+.submit-answer {
+    padding: 10px 20px; /* Espacement interne du bouton */
+    font-size: 16px; /* Taille de police */
+    background-color: rgba(255, 170, 15, 0.95); /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointeur */
+    transition: background-color 0.3s; /* Animation de transition */
+}
+
+.submit-answer:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+/* Styles pour la carte de réponse */
+.answer-card {
+    background-color: #fff; /* Couleur de fond de la carte */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 8px; /* Coins arrondis */
+    margin-bottom: 20px; /* Espacement en bas de la carte */
+}
+
+/* Styles pour l'en-tête de la carte de réponse */
+.answer-card-header {
+    background-color: #f5f5f5; /* Couleur de fond de l'en-tête */
+    padding: 10px; /* Espacement interne de l'en-tête */
+    border-bottom: 1px solid #ccc; /* Bordure en bas */
+    border-top-left-radius: 8px; /* Coin arrondi en haut à gauche */
+    border-top-right-radius: 8px; /* Coin arrondi en haut à droite */
+}
+
+/* Styles pour le corps de la carte de réponse */
+.answer-card-body {
+    padding: 10px; /* Espacement interne du corps */
+}
+
+/********************************************/
+
+/*******************************************/
+/*              Publier question           */
+/*******************************************/
+
+/* Styles pour le formulaire de question */
+.question-form {
+    max-width: 800px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrage horizontal */
+    padding: 40px; /* Espacement interne */
+    background-color: #f9f9f9; /* Couleur de fond */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Styles pour les messages d'erreur ou de succès */
+.question-form p {
+    color: #d9534f; /* Couleur du texte pour les messages d'erreur */
+    margin-bottom: 15px; /* Espacement en bas */
+}
+
+/* Styles pour les groupes de champs */
+.form-group {
+    margin-bottom: 25px; /* Espacement entre les groupes de champs */
+}
+
+/* Styles pour les étiquettes des champs */
+.form-label {
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Styles pour les champs de formulaire */
+.form-control {
+    width: 100%; /* Largeur maximale */
+    padding: 12px; /* Espacement interne */
+    border: 2px solid #ccc; /* Bordure */
+    border-radius: 8px; /* Coins arrondis */
+    font-size: 16px; /* Taille de police */
+    outline: none; /* Suppression du contour */
+}
+
+/* Styles pour le bouton de soumission */
+.btn-primary {
+    display: block; /* Affichage en tant que bloc */
+    width: 100%; /* Largeur maximale */
+    padding: 12px; /* Espacement interne */
+    background-color: rgba(255, 170, 15, 0.95); /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Suppression de la bordure */
+    border-radius: 8px; /* Coins arrondis */
+    font-size: 16px; /* Taille de police */
+    cursor: pointer; /* Curseur pointeur */
+    transition: background-color 0.3s; /* Animation de transition */
+}
+
+.btn-primary:hover {
+    background-color: rgba(218, 136, 0, 0.95);
+   
+}
+
+/*********************/
+
+/* Styles pour le conteneur des questions */
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styles pour chaque élément de question */
+.question-item {
+    max-width: 675px;
+    margin-bottom: 35px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour le titre de la question */
+.question-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* Styles pour la description de la question */
+.question-description {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.question-content a {
+    text-decoration: none;
+
+}
+
+/* Styles pour les boutons d'action */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-access {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+    color: #000;
+    margin-right: 10px;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+
+
+
+
+/******************************/
+
+/* Styles pour le conteneur des informations utilisateur */
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styles pour la carte d'informations utilisateur */
+.user-info-card {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour le corps de la carte d'informations utilisateur */
+.user-info-body {
+    text-align: center;
+}
+
+/* Styles pour le nom d'utilisateur */
+.user-info-username {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Styles pour le nom complet de l'utilisateur */
+.user-info-fullname {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Styles pour les cartes de questions */
+.question-card {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour l'en-tête de la question */
+.question-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styles pour le corps de la question */
+.question-body {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Styles pour le pied de la question */
+.question-footer {
+    font-size: 14px;
+    color: #777;
+}
+
+

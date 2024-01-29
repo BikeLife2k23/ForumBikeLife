@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Couleur de fond de la page */
+}
+
+/****************************************/
+/*               HEADER                 */
+/****************************************/
+
+
+header {
+    background: #1E0E04;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#logo {
+    width: 120px; 
+    height: auto;
+    margin-left: 35px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+nav ul li {
+    margin-right: 20px; 
+    cursor: pointer;
+    border: 2px solid #fff; 
+    border-radius: 10px;
+    padding: 6px 12px; 
+    margin-right: 14px;}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li.co a {
+    color: #ffcc00;
+    background-color: #333;
+    padding: 12px 20px; /* Ajuster la largeur du padding */
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+nav ul li.co a:hover {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+/*************************************/
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    align-items: center;
+    
+    
+}
+
+.container p {
+    
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    
+   
+    
+    
+}
+
+.Forum {
+    display: flex;
+    justify-content: left;
+    float: left; /* Aligne l'image à gauche */
+    width: 450px; /* Ajuste la taille de l'image selon vos besoins */
+    height: 450px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Ajoute une marge à droite pour séparer l'image du texte */
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+
+#presForum {
+    display: flex;
+    justify-content: end;
+    overflow: hidden; /* Clear the float */
+    margin-top: 20px;
+    
+    
+
+}
+
+#presForum p {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+    margin-right: 60px;
+}
+
+#titleForum {
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#blocForum {
+    margin-top: 145px;
+}
+
+#participation {
+    display: flex;
+    justify-content: left;
+    margin-top: 100px;
+    margin-left: 80px;
+    
+}
+
+#participation p{
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#blocCommunity {
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
+    margin-right: 210px;
+}
+
+#blocCommunity a {
+    
+    color: #333;
+    background-color: #ffcc00;
+    padding: 15px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+#blocCommunity a:hover {
+    background-color: #FFFF00;
+    color: #333;
+}
+
+ #bikelifeImage { 
+    display: flex;
+    justify-content: end;
+    margin-top: 50px; 
+    margin-right: 10px;
+    width: 450px;
+    height: 450px;
+}
+
+#blocBikeLife{
+    display: flex;
+    justify-content: space-around;
+}
+
+#titleBikeLife {
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#presBikeLife {
+    display: flex;
+    justify-content: left;
+    overflow: hidden;  
+    margin-top: 20px
+;
+
+}
+
+#presBikeLife p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#gauche {
+    
+    margin-left: 50px;
+    margin-top: -80px;
+}
+
+#participation2 {
+    display: flex;
+    justify-content: left;
+    margin-top: 60px;
+    margin-left: 80px;
+
+}
+
+#participation2 p{
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/****************************************/
+/*               FOOTER                 */
+/****************************************/
+
+footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    background: #1E0E04;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    height: 200px;
+    margin-top: 40px;
+}
+
+footer div {
+    flex: 1; 
+    margin-bottom: 20px; 
+}
+
+.contact-section,
+.social-section,
+.documents-section {
+    text-align: center;
+    align-items: left; 
+}
+
+.social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-section a {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+.ixf {
+    display: flex;
+    justify-content: center;
+}
